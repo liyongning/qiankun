@@ -1,0 +1,17 @@
+{
+  "name": "purehtml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "comm:start": "为了演示，使用 http-server 起一个本地服务器，并且支持跨域",
+    "start": "cross-env PORT=7104 http-server . --cors",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "http-server": "^0.12.1"
+  }
+}
